@@ -1,0 +1,258 @@
+﻿{
+  "meta": {
+    "weekId": "2026-W21",
+    "updatedAt": "2026-06-06T10:30:00+02:00",
+    "pdfUrl": "",
+    "currency": "zl"
+  },
+  "days": [
+    { "id": "pon", "label": "Poniedzialek", "labelEn": "Monday", "shortLabel": "Pon", "shortLabelEn": "Mon" },
+    { "id": "wt", "label": "Wtorek", "labelEn": "Tuesday", "shortLabel": "Wt", "shortLabelEn": "Tue" },
+    { "id": "sr", "label": "Sroda", "labelEn": "Wednesday", "shortLabel": "Sr", "shortLabelEn": "Wed" },
+    { "id": "czw", "label": "Czwartek", "labelEn": "Thursday", "shortLabel": "Czw", "shortLabelEn": "Thu" },
+    { "id": "pt", "label": "Piatek", "labelEn": "Friday", "shortLabel": "Pt", "shortLabelEn": "Fri" }
+  ],
+  "categories": [
+    { "id": "obiady", "label": "Obiady", "labelEn": "Lunch mains" },
+    { "id": "fit", "label": "Fit / keto", "labelEn": "Fit / keto" },
+    { "id": "vege", "label": "Vege", "labelEn": "Vegetarian" },
+    { "id": "klasyk", "label": "Klasyki", "labelEn": "Classics" }
+  ],
+  "dishes": [
+    {
+      "key": "tso",
+      "category": "obiady",
+      "days": ["pon", "wt", "sr"],
+      "name": "Kurczak generala TSO",
+      "nameEn": "General TSO chicken",
+      "price": 23,
+      "description": "Kurczak, ryz i dodatki warzywne. Konkretne danie na syty lunch.",
+      "descriptionEn": "Chicken, rice and vegetable sides. A filling lunch option with bold taste.",
+      "image": "img/menu-webp/800x800_Kurczak-generala-TSO-thumb.webp",
+      "imageAlt": "Kurczak generala TSO",
+      "imageAltEn": "General TSO chicken",
+      "badges": [
+        { "label": "Bestseller", "labelEn": "Bestseller", "tone": "gold" },
+        { "label": "Pikantne", "labelEn": "Spicy", "tone": "dark" }
+      ],
+      "ingredients": ["kurczak", "ryz", "brokul", "papryka", "cebula", "sos TSO", "sezam"],
+      "ingredientsEn": ["chicken", "rice", "broccoli", "bell pepper", "onion", "TSO sauce", "sesame"],
+      "tags": ["wysokie bialko", "na cieply lunch"],
+      "tagsEn": ["high protein", "hot lunch"],
+      "macros": { "kcal": 588, "b": 48, "w": 63, "t": 15 }
+    },
+    {
+      "key": "losos",
+      "category": "klasyk",
+      "days": ["pon", "czw"],
+      "name": "Losos i opiekane ziemniaki",
+      "nameEn": "Salmon with roasted potatoes",
+      "price": 28,
+      "description": "Losos z coleslawem i dipem. Klasyczna pozycja dla zespolu.",
+      "descriptionEn": "Salmon with coleslaw and dip. A premium classic for office teams.",
+      "image": "img/menu-webp/800x800_LADNE_Losos-z-opiekanymi-ziemniakami,-coleslawem-i-dipem-kaparowym-thumb.webp",
+      "imageAlt": "Losos z ziemniakami i coleslawem",
+      "imageAltEn": "Salmon with potatoes and coleslaw",
+      "badges": [
+        { "label": "Ryba", "labelEn": "Fish", "tone": "dark" }
+      ],
+      "ingredients": ["losos", "ziemniaki", "coleslaw", "kapary", "dip jogurtowy", "koperek"],
+      "ingredientsEn": ["salmon", "potatoes", "coleslaw", "capers", "yogurt dip", "dill"],
+      "tags": ["omega-3", "premium"],
+      "tagsEn": ["omega-3", "premium"],
+      "macros": { "kcal": 648, "b": 30, "w": 42, "t": 33 }
+    },
+    {
+      "key": "kapsalon",
+      "category": "obiady",
+      "days": ["wt", "pt"],
+      "name": "Kapsalon",
+      "nameEn": "Kapsalon bowl",
+      "price": 22,
+      "description": "Wysoka sytnosc i wyrazny smak. Sprawdza sie na intensywny dzien.",
+      "descriptionEn": "Very filling with a bold profile. Great for demanding workdays.",
+      "image": "img/menu-webp/Kapsalon-thumb.webp",
+      "imageAlt": "Kapsalon",
+      "imageAltEn": "Kapsalon bowl",
+      "badges": [
+        { "label": "Top wybor", "labelEn": "Top pick", "tone": "gold" }
+      ],
+      "ingredients": ["frytki", "kurczak", "ser", "salata", "pomidor", "sos czosnkowy", "cebula"],
+      "ingredientsEn": ["fries", "chicken", "cheese", "lettuce", "tomato", "garlic sauce", "onion"],
+      "tags": ["syte", "klasyk biurowy"],
+      "tagsEn": ["filling", "office classic"],
+      "macros": { "kcal": 568, "b": 32, "w": 38, "t": 31 }
+    },
+    {
+      "key": "penne",
+      "category": "obiady",
+      "days": ["sr", "pt"],
+      "name": "Penne Diablo",
+      "nameEn": "Penne Diablo",
+      "price": 21,
+      "description": "Makaron w ostrzejszym stylu, dobry balans miedzy energia i smakiem.",
+      "descriptionEn": "Spicier pasta profile with a strong balance of flavor and energy.",
+      "image": "img/menu-webp/Penne_Diablo-thumb.webp",
+      "imageAlt": "Penne Diablo",
+      "imageAltEn": "Penne Diablo pasta",
+      "badges": [
+        { "label": "Makaron", "labelEn": "Pasta", "tone": "dark" }
+      ],
+      "ingredients": ["makaron penne", "kurczak", "sos pomidorowy", "papryczka chili", "parmezan", "natka pietruszki"],
+      "ingredientsEn": ["penne pasta", "chicken", "tomato sauce", "chili pepper", "parmesan", "parsley"],
+      "tags": ["pikantne", "wloski styl"],
+      "tagsEn": ["spicy", "Italian style"],
+      "macros": { "kcal": 631, "b": 41, "w": 61, "t": 25 }
+    },
+    {
+      "key": "stirfry",
+      "category": "fit",
+      "days": ["pon", "sr", "pt"],
+      "name": "Kurczak stir fry",
+      "nameEn": "Chicken stir-fry",
+      "price": 21,
+      "description": "Kurczak z warzywami i orzechami. Lekki, praktyczny format biurowy.",
+      "descriptionEn": "Chicken with vegetables and nuts. Light, practical format for office lunch.",
+      "image": "img/menu-webp/800x800_kurczak-z-warzywami-stir-fry-brokul-orzechy-nerkowca-thumb.webp",
+      "imageAlt": "Kurczak stir fry z warzywami",
+      "imageAltEn": "Chicken stir-fry with vegetables",
+      "badges": [
+        { "label": "Keto", "labelEn": "Keto", "tone": "gold" }
+      ],
+      "ingredients": ["kurczak", "brokul", "marchew", "papryka", "orzechy nerkowca", "sos sojowy", "sezam"],
+      "ingredientsEn": ["chicken", "broccoli", "carrot", "bell pepper", "cashews", "soy sauce", "sesame"],
+      "tags": ["fit", "niskie wegle"],
+      "tagsEn": ["fit", "low carb"],
+      "macros": { "kcal": 415, "b": 39, "w": 15, "t": 22 }
+    },
+    {
+      "key": "kopytka",
+      "category": "vege",
+      "days": ["wt", "czw"],
+      "name": "Kopytka i sos grzybowy",
+      "nameEn": "Potato dumplings with mushroom sauce",
+      "price": 19,
+      "description": "Komfortowe danie bez miesa, z wyraznym profilem smaku.",
+      "descriptionEn": "Comfort vegetarian meal with a deep, savory profile.",
+      "image": "img/menu-webp/800x800_Kopytka-w-sosie-grzybowym,-tarta-mozzarella,-ogorek-kiszony-w-miodzie-z-gorczyca-thumb.webp",
+      "imageAlt": "Kopytka w sosie grzybowym",
+      "imageAltEn": "Potato dumplings in mushroom sauce",
+      "badges": [
+        { "label": "Vege", "labelEn": "Vegetarian", "tone": "dark" }
+      ],
+      "ingredients": ["kopytka", "sos grzybowy", "mozzarella", "ogorek kiszony", "miod", "gorczyca"],
+      "ingredientsEn": ["potato dumplings", "mushroom sauce", "mozzarella", "pickled cucumber", "honey", "mustard"],
+      "tags": ["bez miesa", "comfort food"],
+      "tagsEn": ["meat-free", "comfort food"],
+      "macros": { "kcal": 531, "b": 14, "w": 79, "t": 17 }
+    },
+    {
+      "key": "piers",
+      "category": "fit",
+      "days": ["pon", "czw"],
+      "name": "Grillowana piers z kurczaka",
+      "nameEn": "Grilled chicken breast",
+      "price": 21,
+      "description": "Bialkowa opcja na codzienny rytm dostaw i lekki lunch.",
+      "descriptionEn": "High-protein option for daily delivery rhythm and a lighter lunch.",
+      "image": "img/menu-webp/Grillowana_piers_z_kurczaka_z_ryzem_i_warzywami-thumb.webp",
+      "imageAlt": "Piers z kurczaka z ryzem i warzywami",
+      "imageAltEn": "Chicken breast with rice and vegetables",
+      "badges": [
+        { "label": "Fit", "labelEn": "Fit", "tone": "gold" }
+      ],
+      "ingredients": ["piers z kurczaka", "ryz", "fasolka szparagowa", "marchew", "cukinia", "ziola"],
+      "ingredientsEn": ["chicken breast", "rice", "green beans", "carrot", "zucchini", "herbs"],
+      "tags": ["wysokobialkowe", "lekki lunch"],
+      "tagsEn": ["high protein", "light lunch"],
+      "macros": { "kcal": 459, "b": 42, "w": 36, "t": 16 }
+    },
+    {
+      "key": "schab",
+      "category": "klasyk",
+      "days": ["wt", "pt"],
+      "name": "Schab jak u babci",
+      "nameEn": "Grandma-style pork loin",
+      "price": 21,
+      "description": "Pozycja dla fanow klasycznego smaku i sytego obiadu.",
+      "descriptionEn": "A traditional, hearty lunch for fans of classic home-style flavor.",
+      "image": "img/menu-webp/Schab_jak_u_babci-thumb.webp",
+      "imageAlt": "Schab jak u babci",
+      "imageAltEn": "Grandma-style pork loin",
+      "badges": [
+        { "label": "Domowy klasyk", "labelEn": "Home classic", "tone": "dark" }
+      ],
+      "ingredients": ["schab", "ziemniaki", "kapusta zasmażana", "cebula", "panierka", "przyprawy"],
+      "ingredientsEn": ["pork loin", "potatoes", "braised cabbage", "onion", "breadcrumbs", "spices"],
+      "tags": ["domowe", "tradycyjne"],
+      "tagsEn": ["home style", "traditional"],
+      "macros": { "kcal": 612, "b": 34, "w": 57, "t": 26 }
+    },
+    {
+      "key": "carbonara-rigatoni",
+      "category": "klasyk",
+      "days": ["pon", "czw", "pt"],
+      "name": "Rigatoni w kremowym sosie",
+      "nameEn": "Rigatoni in creamy sauce",
+      "price": 20,
+      "description": "Kremowy makaron w lagodniejszym profilu. Dobra opcja na prosty, komfortowy lunch.",
+      "descriptionEn": "Creamy pasta with a milder profile. A reliable comfort lunch for the office.",
+      "image": "img/menu-webp/800x800-thumb.webp",
+      "imageAlt": "Rigatoni w kremowym sosie",
+      "imageAltEn": "Rigatoni in creamy sauce",
+      "badges": [
+        { "label": "Comfort", "labelEn": "Comfort", "tone": "gold" },
+        { "label": "Makaron", "labelEn": "Pasta", "tone": "dark" }
+      ],
+      "ingredients": ["makaron rigatoni", "sos smietanowy", "ser", "pieprz", "ziola", "czosnek"],
+      "ingredientsEn": ["rigatoni pasta", "cream sauce", "cheese", "pepper", "herbs", "garlic"],
+      "tags": ["lagodne", "komfortowe"],
+      "tagsEn": ["mild", "comfort"],
+      "macros": { "kcal": 552, "b": 19, "w": 68, "t": 22 }
+    },
+    {
+      "key": "protein-bowl",
+      "category": "fit",
+      "days": ["wt", "sr", "czw"],
+      "name": "Protein bowl z ryzem",
+      "nameEn": "Protein rice bowl",
+      "price": 24,
+      "description": "Miska z ryzem, warzywami i bialkiem. Lekki, nowoczesny format do pracy.",
+      "descriptionEn": "A bowl with rice, vegetables and protein. Light, modern and easy for workdays.",
+      "image": "img/menu-webp/Bowl_z_ryĺem_i_pieczonym_ąososiem-thumb.webp",
+      "imageAlt": "Protein bowl z ryzem i warzywami",
+      "imageAltEn": "Protein rice bowl with vegetables",
+      "badges": [
+        { "label": "Fit", "labelEn": "Fit", "tone": "gold" },
+        { "label": "Bowl", "labelEn": "Bowl", "tone": "dark" }
+      ],
+      "ingredients": ["ryz", "miks warzyw", "bialko", "edamame", "sos sezamowy", "ziola"],
+      "ingredientsEn": ["rice", "mixed vegetables", "protein", "edamame", "sesame dressing", "herbs"],
+      "tags": ["lekki lunch", "bialko"],
+      "tagsEn": ["light lunch", "protein"],
+      "macros": { "kcal": 498, "b": 31, "w": 49, "t": 18 }
+    },
+    {
+      "key": "golabki",
+      "category": "klasyk",
+      "days": ["pon", "sr", "pt"],
+      "name": "Golabki bez zawijania",
+      "nameEn": "Deconstructed cabbage rolls",
+      "price": 22,
+      "description": "Domowa pozycja z puree i surowka. Syta, klasyczna propozycja dla zespolu.",
+      "descriptionEn": "Home-style lunch with mash and slaw. A hearty classic office option.",
+      "image": "img/menu-webp/Goląbki_bez_zawijania,_puree_ziemniaczane-thumb.webp",
+      "imageAlt": "Golabki bez zawijania z puree",
+      "imageAltEn": "Deconstructed cabbage rolls with mash",
+      "badges": [
+        { "label": "Nowosc", "labelEn": "New", "tone": "gold" },
+        { "label": "Domowy klasyk", "labelEn": "Home classic", "tone": "dark" }
+      ],
+      "ingredients": ["mieso mielone", "kapusta", "puree ziemniaczane", "surowka", "sos pomidorowy", "koper"],
+      "ingredientsEn": ["minced meat", "cabbage", "mashed potatoes", "slaw", "tomato sauce", "dill"],
+      "tags": ["domowe", "syte"],
+      "tagsEn": ["home style", "filling"],
+      "macros": { "kcal": 586, "b": 29, "w": 46, "t": 28 }
+    }
+  ]
+}

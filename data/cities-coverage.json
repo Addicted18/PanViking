@@ -1,0 +1,1171 @@
+{
+  "meta": {
+    "updatedAt": "2026-06-05",
+    "responseSla": "Kontakt zwrotny do 24h",
+    "expansionNote": "Nie widzisz swojego miasta? Dodaj firme do listy ekspansji przez formularz.",
+    "sourceUrl": "https://panviking.pl/",
+    "count": 238
+  },
+  "highlights": [
+    "Warszawa",
+    "Wroc?aw",
+    "Krak?w",
+    "Pozna?",
+    "Gda?sk",
+    "??d?",
+    "Katowice",
+    "Lublin",
+    "Szczecin",
+    "Bia?ystok"
+  ],
+  "mapPoints": [
+    {
+      "city": "Białystok",
+      "regionKey": "podlaskie",
+      "lat": 53.13333,
+      "lon": 23.16433,
+      "priority": "secondary"
+    },
+    {
+      "city": "Bydgoszcz",
+      "regionKey": "kujawsko-pomorskie",
+      "lat": 53.1235,
+      "lon": 18.00762,
+      "priority": "main"
+    },
+    {
+      "city": "Częstochowa",
+      "regionKey": "slaskie",
+      "lat": 50.79646,
+      "lon": 19.12409,
+      "priority": "secondary"
+    },
+    {
+      "city": "Gdańsk",
+      "regionKey": "pomorskie",
+      "lat": 54.35205,
+      "lon": 18.64637,
+      "priority": "secondary"
+    },
+    {
+      "city": "Gdynia",
+      "regionKey": "pomorskie",
+      "lat": 54.51889,
+      "lon": 18.53188,
+      "priority": "secondary"
+    },
+    {
+      "city": "Gliwice",
+      "regionKey": "slaskie",
+      "lat": 50.29761,
+      "lon": 18.67658,
+      "priority": "secondary"
+    },
+    {
+      "city": "Gorzów Wielkopolski",
+      "regionKey": "lubuskie",
+      "lat": 52.73679,
+      "lon": 15.22878,
+      "priority": "secondary"
+    },
+    {
+      "city": "Kalisz",
+      "regionKey": "wielkopolskie",
+      "lat": 51.76109,
+      "lon": 18.09102,
+      "priority": "secondary"
+    },
+    {
+      "city": "Katowice",
+      "regionKey": "slaskie",
+      "lat": 50.25841,
+      "lon": 19.02754,
+      "priority": "main"
+    },
+    {
+      "city": "Kielce",
+      "regionKey": "swietokrzyskie",
+      "lat": 50.87033,
+      "lon": 20.62752,
+      "priority": "main"
+    },
+    {
+      "city": "Kraków",
+      "regionKey": "malopolskie",
+      "lat": 50.07262,
+      "lon": 19.9325,
+      "priority": "secondary"
+    },
+    {
+      "city": "Legnica",
+      "regionKey": "dolnoslaskie",
+      "lat": 51.21006,
+      "lon": 16.1619,
+      "priority": "secondary"
+    },
+    {
+      "city": "Lublin",
+      "regionKey": "lubelskie",
+      "lat": 51.25,
+      "lon": 22.56667,
+      "priority": "main"
+    },
+    {
+      "city": "Łódź",
+      "regionKey": "lodzkie",
+      "lat": 51.77058,
+      "lon": 19.47395,
+      "priority": "secondary"
+    },
+    {
+      "city": "Olsztyn",
+      "regionKey": "warminsko-mazurskie",
+      "lat": 53.77657,
+      "lon": 20.46657,
+      "priority": "main"
+    },
+    {
+      "city": "Opole",
+      "regionKey": "opolskie",
+      "lat": 50.67211,
+      "lon": 17.92533,
+      "priority": "main"
+    },
+    {
+      "city": "Poznań",
+      "regionKey": "wielkopolskie",
+      "lat": 52.40692,
+      "lon": 16.92993,
+      "priority": "secondary"
+    },
+    {
+      "city": "Radom",
+      "regionKey": "mazowieckie",
+      "lat": 51.40253,
+      "lon": 21.14714,
+      "priority": "secondary"
+    },
+    {
+      "city": "Rzeszów",
+      "regionKey": "podkarpackie",
+      "lat": 50.00545,
+      "lon": 21.98848,
+      "priority": "secondary"
+    },
+    {
+      "city": "Siedlce",
+      "regionKey": "mazowieckie",
+      "lat": 52.16772,
+      "lon": 22.29006,
+      "priority": "secondary"
+    },
+    {
+      "city": "Sopot",
+      "regionKey": "pomorskie",
+      "lat": 54.4418,
+      "lon": 18.56003,
+      "priority": "secondary"
+    },
+    {
+      "city": "Szczecin",
+      "regionKey": "zachodniopomorskie",
+      "lat": 53.42894,
+      "lon": 14.55302,
+      "priority": "main"
+    },
+    {
+      "city": "Toruń",
+      "regionKey": "kujawsko-pomorskie",
+      "lat": 53.01375,
+      "lon": 18.59814,
+      "priority": "secondary"
+    },
+    {
+      "city": "Tychy",
+      "regionKey": "slaskie",
+      "lat": 50.13717,
+      "lon": 18.96641,
+      "priority": "secondary"
+    },
+    {
+      "city": "Warszawa",
+      "regionKey": "mazowieckie",
+      "lat": 52.23547,
+      "lon": 21.04191,
+      "priority": "main"
+    },
+    {
+      "city": "Wrocław",
+      "regionKey": "dolnoslaskie",
+      "lat": 51.1081,
+      "lon": 17.03859,
+      "priority": "secondary"
+    }
+  ],
+  "cities": [
+    {
+      "name": "Aleksandrów Łódzki",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Andrespol",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Augustów",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Balice",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Banino",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Baniocha",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Barlinek",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Bartoszyce",
+      "regionKey": "warminsko-mazurskie"
+    },
+    {
+      "name": "Batorowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Białogard",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Białowieża",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Białystok",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Bielsk Podlaski",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Blachownia",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Błonie",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Bochnia",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Bolechowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Bolszewo",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Brzeziny",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Bugaj",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Buk",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Busko-Zdrój",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Bydgoszcz",
+      "regionKey": "kujawsko-pomorskie"
+    },
+    {
+      "name": "Bytom",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Całowanie",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Chęciny",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Chorzów",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Choszczno",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Chwaszczyno",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Czaple",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Czarna Białostocka",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Czerwonak",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Częstochowa",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Dąbrowa",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Dąbrowa Białostocka",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Dąbrówka",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Dębica",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Dębno",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Deszczno",
+      "regionKey": "lubuskie"
+    },
+    {
+      "name": "Dobroń",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Dzierżoniów",
+      "regionKey": "dolnoslaskie"
+    },
+    {
+      "name": "Dziwnów",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Gądki",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Gdańsk",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Gdynia",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Gierłatowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Giżycko",
+      "regionKey": "warminsko-mazurskie"
+    },
+    {
+      "name": "Gliwice",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Głowno",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Gniezno",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Goleniów",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Góra Kalwaria",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Gorzów Wielkopolski",
+      "regionKey": "lubuskie"
+    },
+    {
+      "name": "Goślinowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Grodzisk Mazowiecki",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Grójec",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Grudziądz",
+      "regionKey": "kujawsko-pomorskie"
+    },
+    {
+      "name": "Gruszczyn",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Gryfice",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Gryfino",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Hajnówka",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Halinów",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Jabłonna",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Jankowo Dolne",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Jarosław",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Jasionka",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Jędrzejów",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Józefów",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Kalisz",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Kartuzy",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Katowice",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Kąty Wrocławski",
+      "regionKey": "dolnoslaskie",
+      "aliases": [
+        "K?ty Wroc?awskie"
+      ]
+    },
+    {
+      "name": "Kielce",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Kobyłka",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Kolbudy",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Kolbuszowa",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Koluszki",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Kołobrzeg",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Końskie",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Konstancin Jeziorna",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Konstantynów",
+      "regionKey": "lubelskie"
+    },
+    {
+      "name": "Kosakowo",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Kościan",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Koszalin",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Koziegłowy",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Kraków",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Krasnystaw",
+      "regionKey": "lubelskie"
+    },
+    {
+      "name": "Krosno",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Krotoszyn",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Krynki",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Kurowice",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Las",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Legionowo",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Legnica",
+      "regionKey": "dolnoslaskie"
+    },
+    {
+      "name": "Leszno",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Lidzbark",
+      "regionKey": "warminsko-mazurskie"
+    },
+    {
+      "name": "Lipiany",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Lublin",
+      "regionKey": "lubelskie"
+    },
+    {
+      "name": "Luzino",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Łańcut",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Łęczna",
+      "regionKey": "lubelskie"
+    },
+    {
+      "name": "Łobez",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Łódź",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Łomianki",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Łubowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Małogoszcz",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Małyszyn",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Marki",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Maszewo",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Medyka",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Michałowo",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Międzyrzecz",
+      "regionKey": "lubuskie"
+    },
+    {
+      "name": "Międzyzdroje",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Mielec",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Mikołów",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Milicz",
+      "regionKey": "dolnoslaskie"
+    },
+    {
+      "name": "Miszewo",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Mrągowo",
+      "regionKey": "warminsko-mazurskie"
+    },
+    {
+      "name": "Mrowino",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Mszczonów",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Murowana Goślina",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Myślenice",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Myślibórz",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Nekla",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Nidzica",
+      "regionKey": "warminsko-mazurskie"
+    },
+    {
+      "name": "Niepołomice",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Niepruszewo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Nowa Dęba",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Nowogard",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Nowy Dwór Mazowiecki",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Nowy Targ",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Nysa",
+      "regionKey": "opolskie"
+    },
+    {
+      "name": "Oborniki",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Oleśnica",
+      "regionKey": "dolnoslaskie"
+    },
+    {
+      "name": "Olsztyn",
+      "regionKey": "warminsko-mazurskie"
+    },
+    {
+      "name": "Opatów",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Opole",
+      "regionKey": "opolskie"
+    },
+    {
+      "name": "Ostrowiec Świętokrzyski",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Otwock",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Ożarów Mazowiecki",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Pabianice",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Pełczyce",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Pępowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Pilzno",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Pińczów",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Pobiedziska",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Pobierowo",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Podgrodzie",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Pokrzywno",
+      "regionKey": "kujawsko-pomorskie"
+    },
+    {
+      "name": "Poznań",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Pruszcz Gdański",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Pruszków",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Przemyśl",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Przeworsk",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Przeźmierowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Psary Małe",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Pszczółki",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Puck",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Pustków",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Pyrzyce",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Radom",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Reda",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Rokietnica",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Ropczyce",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Różańsko",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Ruda Śląska",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Rumia",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Rusocin",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Rzeszów",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Rzgłów",
+      "regionKey": "lodzkie",
+      "aliases": [
+        "Rzg?w"
+      ]
+    },
+    {
+      "name": "Sady",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Sandomierz",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Sędziszów",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Sędziszów Małopolski",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Siedlce",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Siemianowice Śląskie",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Skarżysko Kamienna",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Skawina",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Skierniewice",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Skwierzyna",
+      "regionKey": "lubuskie"
+    },
+    {
+      "name": "Sochaczew",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Sokołów małopolski",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Sopot",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Śrem",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Środa Śląska",
+      "regionKey": "dolnoslaskie"
+    },
+    {
+      "name": "Środa Wielkopolska",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Stalowa Wola",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Starachowice",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Starczanowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Stargard",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Staszów",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Straszyn",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Strumiany",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Suchy",
+      "regionKey": "wielkopolskie",
+      "aliases": [
+        "Suchy Las"
+      ]
+    },
+    {
+      "name": "Suwałki",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Swadzim",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Swarzędz",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Świdnik",
+      "regionKey": "lubelskie"
+    },
+    {
+      "name": "Świdwin",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Świętochłowice",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Świlcza",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Świnoujście",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Szamotuły",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Szczecin",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Szczepankowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Szczytno",
+      "regionKey": "warminsko-mazurskie"
+    },
+    {
+      "name": "Tarnobrzeg",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Tarnów",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Tarnowo",
+      "regionKey": "wielkopolskie",
+      "aliases": [
+        "Tarnowo Podg?rne"
+      ]
+    },
+    {
+      "name": "Tczew",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Toruń",
+      "regionKey": "kujawsko-pomorskie"
+    },
+    {
+      "name": "Trąbki Małe",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Trąbki Wielkie",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Trzciana",
+      "regionKey": "podkarpackie"
+    },
+    {
+      "name": "Trzebiatów",
+      "regionKey": "zachodniopomorskie"
+    },
+    {
+      "name": "Tuchom",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Tuszyn",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Tychy",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Wadowice",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Warszawa",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Wasilków",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Wejherowo",
+      "regionKey": "pomorskie"
+    },
+    {
+      "name": "Wiązowna",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Więckowice",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Wieliczka",
+      "regionKey": "malopolskie"
+    },
+    {
+      "name": "Witnica",
+      "regionKey": "lubuskie"
+    },
+    {
+      "name": "Włoszczowa",
+      "regionKey": "swietokrzyskie"
+    },
+    {
+      "name": "Wołomin",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Wrocław",
+      "regionKey": "dolnoslaskie"
+    },
+    {
+      "name": "Września",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Wygoda",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Wysogotowo",
+      "regionKey": "wielkopolskie"
+    },
+    {
+      "name": "Zabrze",
+      "regionKey": "slaskie"
+    },
+    {
+      "name": "Zambrów",
+      "regionKey": "podlaskie"
+    },
+    {
+      "name": "Zgierz",
+      "regionKey": "lodzkie"
+    },
+    {
+      "name": "Zielona Góra",
+      "regionKey": "lubuskie"
+    },
+    {
+      "name": "Zielonka",
+      "regionKey": "mazowieckie"
+    },
+    {
+      "name": "Żukowo",
+      "regionKey": "pomorskie"
+    }
+  ]
+}
