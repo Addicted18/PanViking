@@ -90,8 +90,8 @@
           </button>
           <a class="nav-link js-section-link" href="#dostawa">Gdzie dowozimy</a>
           <a class="nav-link js-section-link" href="#proces">Jak zamówić</a>
-          <a class="nav-link" href="https://panviking.pl/kariera" target="_blank" rel="noreferrer">Kariera</a>
           <a class="nav-link js-section-link" href="#menu">Menu</a>
+          <a class="nav-link js-section-link" href="#faq">FAQ</a>
           <a href="#kontakt" class="nav-cta">Umów test day</a>
         </nav>
         <button class="lang-pill" type="button" data-lang-toggle aria-label="Przełącz język strony">PL</button>
@@ -106,8 +106,8 @@
       <nav class="mobile-links" aria-label="Nawigacja mobilna">
         <a class="js-section-link" href="#dostawa">Gdzie dowozimy</a>
         <a class="js-section-link" href="#proces">Jak zamówić?</a>
-        <a href="https://panviking.pl/kariera" target="_blank" rel="noreferrer">Kariera</a>
         <a class="js-section-link" href="#menu">Menu</a>
+        <a class="js-section-link" href="#faq">FAQ</a>
       </nav>
       <div class="mobile-tools">
         <a href="#kontakt" class="nav-cta">Umów test day</a>
@@ -123,15 +123,15 @@
           <div class="hero-track">
             <article class="hero-slide hero-slide--forge is-active" data-hero-slide aria-hidden="false">
               <div class="hero-slide-content">
-                <span class="hero-kicker">Wizytówka marki</span>
+                <span class="hero-kicker">Dostawy B2B do firm</span>
                 <h1 class="hero-title">PAN VIKING <strong>WJEŻDŻA</strong> DO TWOJEGO BIURA</h1>
                 <p class="hero-copyline">
-                  Gotowe posiłki dla firm, dostarczane regularnie i bez komplikacji. Mocne smaki,
-                  jasne zasady i wygodny proces od pierwszego testu do codziennych dostaw.
+                  Test day bez umowy, regularne dostawy i jeden kontakt po stronie handlowca.
+                  Sprawdzasz zasięg, umawiasz próbny dzień i dopiero potem decydujesz o stałej współpracy.
                 </p>
                 <div class="hero-actions">
                   <a href="#kontakt" class="btn btn-primary">Umów test day</a>
-                  <a href="#menu" class="btn btn-secondary">Zobacz menu</a>
+                  <a href="#dostawa" class="btn btn-secondary">Sprawdź zasięg</a>
                 </div>
                 <ul class="hero-trust-strip" aria-label="Najważniejsze warunki współpracy">
                   <li>Bez umowy na start</li>
@@ -159,11 +159,11 @@
 
             <article class="hero-slide hero-slide--fleet" data-hero-slide data-hero-background="img/illustrations-webp/viking-z-autem-BdBcU67K.webp" aria-hidden="true">
               <div class="hero-slide-content">
-                <span class="hero-kicker">Vikingowa logistyka</span>
+                <span class="hero-kicker">Stały rytm dostaw</span>
                 <h2 class="hero-title">DOSTAWA, KTÓREJ <strong>NIE PILNUJESZ</strong></h2>
                 <p class="hero-copyline">
-                  Ustalamy godziny i punkty odbioru, a potem dowozimy regularnie. Bez chaosu, bez
-                  przypominania i bez kosztów dostawy.
+                  Ustalamy godziny, punkt odbioru i sposób kontaktu. Potem dowozimy regularnie,
+                  bez dodatkowej opłaty za dostawę i bez codziennego pilnowania tematu.
                 </p>
                 <div class="hero-actions">
                   <a href="#kontakt" class="btn btn-primary">Umów test day</a>
@@ -195,15 +195,15 @@
 
             <article class="hero-slide hero-slide--taste" data-hero-slide data-hero-background="img/table-with-meals-optimized.webp" aria-hidden="true">
               <div class="hero-slide-content">
-                <span class="hero-kicker">Menu dla zespołu</span>
+                <span class="hero-kicker">Menu, które pracuje w biurze</span>
                 <h2 class="hero-title">CODZIENNIE INNY <strong>POWER LUNCH</strong></h2>
                 <p class="hero-copyline">
-                  Dania klasyczne, lżejsze, vege i keto - wszystko w jednym miejscu, z menu
-                  dopasowanym do realnego rytmu Twojej firmy.
+                  Klasyczne obiady, lżejsze opcje, vege i keto w jednym procesie dostaw.
+                  Zespół wybiera wygodnie, a administracja nie musi organizować lunchu od zera.
                 </p>
                 <div class="hero-actions">
                   <a href="#kontakt" class="btn btn-primary">Umów test day</a>
-                  <a href="#menu" class="btn btn-secondary">Sprawdź menu</a>
+                  <a href="#proces" class="btn btn-secondary">Zobacz start</a>
                 </div>
                 <ul class="hero-trust-strip" aria-label="Najważniejsze warunki współpracy">
                   <li>Bez umowy na start</li>
@@ -805,6 +805,7 @@
                       <span data-lead-progress-bar></span>
                     </div>
                     <p class="lead-progress-copy" data-lead-progress-copy>Krok 1 z 2</p>
+                    <p class="lead-feedback" data-lead-feedback aria-live="polite"></p>
 
                     <div class="lead-step is-active" data-lead-step="1">
                       <div class="lead-grid lead-grid--two">
@@ -854,8 +855,8 @@
                     <div class="lead-step" data-lead-step="2">
                       <div class="lead-grid">
                         <label class="lead-field">
-                          <span>Adres dostawy, piętro *</span>
-                          <input class="lead-input" type="text" name="deliveryAddress" autocomplete="street-address" required>
+                          <span>Adres dostawy, piętro</span>
+                          <input class="lead-input" type="text" name="deliveryAddress" autocomplete="street-address" placeholder="Opcjonalnie, jeśli znasz już lokalizację">
                           <small class="lead-field-error" aria-live="polite"></small>
                         </label>
 
@@ -891,9 +892,6 @@
                         </label>
                         <small class="lead-field-error lead-field-error--consent" aria-live="polite"></small>
                       </div>
-
-                      <p class="lead-feedback" data-lead-feedback aria-live="polite"></p>
-
                       <div class="lead-step-foot">
                         <button type="button" class="btn btn-secondary" data-lead-prev>Wróć do danych firmy</button>
                         <button type="submit" class="btn btn-primary" data-lead-submit>Wyślij do handlowca</button>
@@ -923,10 +921,11 @@
     <section class="section" id="opinie">
       <div class="container">
         <div class="proof-intro">
-          <span class="chip reveal">Opinie klientów</span>
-          <h2 class="section-title reveal reveal-delay-1">Firmy zostają z nami na dłużej, bo proces po prostu działa</h2>
+          <span class="chip reveal">Dowody zaufania</span>
+          <h2 class="section-title reveal reveal-delay-1">Decyzja jest łatwiejsza, gdy zasady są konkretne</h2>
           <p class="section-lead reveal reveal-delay-2">
-            prosty start, stały rytm dostaw i menu, które realnie pracuje w biurze.
+            Zanim pokażemy podpisane referencje klientów, opieramy komunikację na faktach:
+            zapleczu produkcyjnym, logistyce, warunkach startu i bezpieczeństwie dostaw.
           </p>
         </div>
 
@@ -935,20 +934,19 @@
             <div class="proof-row" data-proof-row>
               <article class="proof-card" data-proof-card tabindex="0">
                 <div class="proof-card-head">
-                  <span class="proof-avatar" aria-hidden="true">OM</span>
-                  <span class="proof-verified" data-proof-verified>Po wdrożeniu</span>
+                  <span class="proof-avatar" aria-hidden="true">KV</span>
+                  <span class="proof-verified" data-proof-verified>Zweryfikowany fakt</span>
                 </div>
                 <div class="proof-card-badges">
-                  <span class="proof-card-badge" data-proof-card-badge>firma IT</span>
-                  <span class="proof-card-badge" data-proof-card-badge>95 osób</span>
-                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>przewidywalność</span>
+                  <span class="proof-card-badge" data-proof-card-badge>produkcja</span>
+                  <span class="proof-card-badge" data-proof-card-badge>Kuchnia Vikinga</span>
+                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>skala</span>
                 </div>
-                <p class="proof-stars" data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p class="proof-quote">"Największa różnica to przewidywalność. Ludzie wiedzą, kiedy i co dostaną, a ja nie tracę czasu na gaszenie tematów ad hoc."</p>
+                <p class="proof-quote">Posiłki powstają w oparciu o zaplecze Kuchni Vikinga, więc sprzedaż B2B nie zaczyna od obietnicy bez pokrycia, tylko od istniejącej produkcji i procesu.</p>
                 <div class="proof-card-foot">
                   <p class="proof-author">
-                    <strong class="proof-author-role" data-proof-author-role>Office Manager</strong>
-                    <span class="proof-author-meta" data-proof-author-meta>firma IT / 95 osób</span>
+                    <strong class="proof-author-role" data-proof-author-role>Zaplecze produkcyjne</strong>
+                    <span class="proof-author-meta" data-proof-author-meta>źródło: komunikacja marki Pan Viking</span>
                   </p>
                   <span class="proof-card-index" data-proof-card-index>01</span>
                 </div>
@@ -956,20 +954,19 @@
 
               <article class="proof-card" data-proof-card tabindex="0">
                 <div class="proof-card-head">
-                  <span class="proof-avatar" aria-hidden="true">PO</span>
-                  <span class="proof-verified" data-proof-verified>Po wdrożeniu</span>
+                  <span class="proof-avatar" aria-hidden="true">7D</span>
+                  <span class="proof-verified" data-proof-verified>Zweryfikowany fakt</span>
                 </div>
                 <div class="proof-card-badges">
-                  <span class="proof-card-badge" data-proof-card-badge>centrum usług</span>
-                  <span class="proof-card-badge" data-proof-card-badge>130 osób</span>
-                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>test day</span>
+                  <span class="proof-card-badge" data-proof-card-badge>logistyka</span>
+                  <span class="proof-card-badge" data-proof-card-badge>7 dni</span>
+                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>stały rytm</span>
                 </div>
-                <p class="proof-stars" data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p class="proof-quote">"Test day zrobił robotę. Zespół szybko wybrał ulubione dania i od tego momentu mamy spokojny, powtarzalny model."</p>
+                <p class="proof-quote">Dostawy można ustalać w stałych godzinach i punktach odbioru. To ważne dla administracji, HR i office managerów, którzy potrzebują przewidywalnego procesu.</p>
                 <div class="proof-card-foot">
                   <p class="proof-author">
-                    <strong class="proof-author-role" data-proof-author-role>People Ops</strong>
-                    <span class="proof-author-meta" data-proof-author-meta>centrum usług / 130 osób</span>
+                    <strong class="proof-author-role" data-proof-author-role>Rytm dostaw</strong>
+                    <span class="proof-author-meta" data-proof-author-meta>dostawy przez cały tydzień</span>
                   </p>
                   <span class="proof-card-index" data-proof-card-index>02</span>
                 </div>
@@ -977,20 +974,19 @@
 
               <article class="proof-card" data-proof-card tabindex="0">
                 <div class="proof-card-head">
-                  <span class="proof-avatar" aria-hidden="true">AD</span>
-                  <span class="proof-verified" data-proof-verified>Po wdrożeniu</span>
+                  <span class="proof-avatar" aria-hidden="true">0ZŁ</span>
+                  <span class="proof-verified" data-proof-verified>Warunek startu</span>
                 </div>
                 <div class="proof-card-badges">
-                  <span class="proof-card-badge" data-proof-card-badge>produkcja</span>
-                  <span class="proof-card-badge" data-proof-card-badge>80 osób</span>
-                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>1 opiekun</span>
+                  <span class="proof-card-badge" data-proof-card-badge>test day</span>
+                  <span class="proof-card-badge" data-proof-card-badge>bez umowy</span>
+                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>bez dostawy</span>
                 </div>
-                <p class="proof-stars" data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p class="proof-quote">"Doceniamy jednego opiekuna i szybkie korekty liczby porcji. Operacyjnie to bardzo wygodne po stronie administracji."</p>
+                <p class="proof-quote">Firma może zacząć od dnia testowego, bez podpisywania długiej umowy na starcie. To obniża ryzyko decyzji i pozwala zebrać realny feedback zespołu.</p>
                 <div class="proof-card-foot">
                   <p class="proof-author">
-                    <strong class="proof-author-role" data-proof-author-role>Administracja biura</strong>
-                    <span class="proof-author-meta" data-proof-author-meta>firma produkcyjna / 80 osób</span>
+                    <strong class="proof-author-role" data-proof-author-role>Prosty start</strong>
+                    <span class="proof-author-meta" data-proof-author-meta>test day jako pierwszy krok</span>
                   </p>
                   <span class="proof-card-index" data-proof-card-index>03</span>
                 </div>
@@ -998,43 +994,41 @@
 
               <article class="proof-card" data-proof-card tabindex="0">
                 <div class="proof-card-head">
-                  <span class="proof-avatar" aria-hidden="true">HR</span>
-                  <span class="proof-verified" data-proof-verified>Po wdrożeniu</span>
+                  <span class="proof-avatar" aria-hidden="true">HC</span>
+                  <span class="proof-verified" data-proof-verified>Bezpieczeństwo</span>
                 </div>
                 <div class="proof-card-badges">
-                  <span class="proof-card-badge" data-proof-card-badge>finanse</span>
-                  <span class="proof-card-badge" data-proof-card-badge>60 osób</span>
-                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>różnorodne menu</span>
+                  <span class="proof-card-badge" data-proof-card-badge>HACCP</span>
+                  <span class="proof-card-badge" data-proof-card-badge>chłodnia</span>
+                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>termoboksy</span>
                 </div>
-                <p class="proof-stars" data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p class="proof-quote">"Mamy mix preferencji w zespole, ale dzięki różnorodnemu menu każdy znajduje coś dla siebie i maleje liczba skarg."</p>
+                <p class="proof-quote">Komunikacja strony jasno pokazuje ciąg chłodniczy, termoboksy i standard HACCP. To konkret dla firm, które muszą myśleć o bezpieczeństwie żywności.</p>
                 <div class="proof-card-foot">
                   <p class="proof-author">
-                    <strong class="proof-author-role" data-proof-author-role>HR Manager</strong>
-                    <span class="proof-author-meta" data-proof-author-meta>firma finansowa / 60 osób</span>
+                    <strong class="proof-author-role" data-proof-author-role>Standard dostawy</strong>
+                    <span class="proof-author-meta" data-proof-author-meta>proces od kuchni do biura</span>
                   </p>
                   <span class="proof-card-index" data-proof-card-index>04</span>
                 </div>
               </article>
             </div>
 
-            <div class="proof-row" data-proof-row>
+            <div class="proof-row proof-row--compact" data-proof-row>
               <article class="proof-card" data-proof-card tabindex="0">
                 <div class="proof-card-head">
-                  <span class="proof-avatar" aria-hidden="true">WX</span>
-                  <span class="proof-verified" data-proof-verified>Po wdrożeniu</span>
+                  <span class="proof-avatar" aria-hidden="true">238</span>
+                  <span class="proof-verified" data-proof-verified>Aktywny zasięg</span>
                 </div>
                 <div class="proof-card-badges">
-                  <span class="proof-card-badge" data-proof-card-badge>workplace</span>
-                  <span class="proof-card-badge" data-proof-card-badge>48 osób</span>
-                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>bez umowy</span>
+                  <span class="proof-card-badge" data-proof-card-badge>miasta</span>
+                  <span class="proof-card-badge" data-proof-card-badge>mapa</span>
+                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>sprawdzenie</span>
                 </div>
-                <p class="proof-stars" data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p class="proof-quote">"To był prosty start. Bez długiego procesu decyzyjnego sprawdziliśmy model w praktyce i szybko weszliśmy w regularne dostawy."</p>
+                <p class="proof-quote">Sekcja zasięgu pracuje jak narzędzie sprzedażowe: decydent wpisuje miasto, widzi region i od razu przechodzi do rozmowy o wdrożeniu.</p>
                 <div class="proof-card-foot">
                   <p class="proof-author">
-                    <strong class="proof-author-role" data-proof-author-role>Workplace Experience</strong>
-                    <span class="proof-author-meta" data-proof-author-meta>software house / 48 osób</span>
+                    <strong class="proof-author-role" data-proof-author-role>Mapa dostaw</strong>
+                    <span class="proof-author-meta" data-proof-author-meta>238 miast w lokalnych danych</span>
                   </p>
                   <span class="proof-card-index" data-proof-card-index>05</span>
                 </div>
@@ -1042,64 +1036,21 @@
 
               <article class="proof-card" data-proof-card tabindex="0">
                 <div class="proof-card-head">
-                  <span class="proof-avatar" aria-hidden="true">FM</span>
-                  <span class="proof-verified" data-proof-verified>Po wdrożeniu</span>
+                  <span class="proof-avatar" aria-hidden="true">PL</span>
+                  <span class="proof-verified" data-proof-verified>Do podmiany po zgodzie</span>
                 </div>
                 <div class="proof-card-badges">
-                  <span class="proof-card-badge" data-proof-card-badge>ssc</span>
-                  <span class="proof-card-badge" data-proof-card-badge>170 osób</span>
-                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>proste rozliczenie</span>
+                  <span class="proof-card-badge" data-proof-card-badge>logo klienta</span>
+                  <span class="proof-card-badge" data-proof-card-badge>rola</span>
+                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>efekt</span>
                 </div>
-                <p class="proof-stars" data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p class="proof-quote">"Kosztowo model jest czytelny, a brak dodatkowej opłaty za dostawę ułatwia nam komunikację i planowanie po stronie firmy."</p>
+                <p class="proof-quote">Miejsce na podpisaną referencję klienta: nazwa firmy, rola osoby, miasto lub typ lokalizacji, liczba pracowników i jeden konkretny efekt po test day.</p>
                 <div class="proof-card-foot">
                   <p class="proof-author">
-                    <strong class="proof-author-role" data-proof-author-role>Finance Manager</strong>
-                    <span class="proof-author-meta" data-proof-author-meta>centrum usług wspólnych / 170 osób</span>
+                    <strong class="proof-author-role" data-proof-author-role>Podpisana referencja</strong>
+                    <span class="proof-author-meta" data-proof-author-meta>publikować dopiero po zgodzie klienta</span>
                   </p>
                   <span class="proof-card-index" data-proof-card-index>06</span>
-                </div>
-              </article>
-
-              <article class="proof-card" data-proof-card tabindex="0">
-                <div class="proof-card-head">
-                  <span class="proof-avatar" aria-hidden="true">TL</span>
-                  <span class="proof-verified" data-proof-verified>Po wdrożeniu</span>
-                </div>
-                <div class="proof-card-badges">
-                  <span class="proof-card-badge" data-proof-card-badge>team lead</span>
-                  <span class="proof-card-badge" data-proof-card-badge>40 osób</span>
-                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>mniej chaosu</span>
-                </div>
-                <p class="proof-stars" data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p class="proof-quote">"Zespół przestał rozchodzić się po lunch na oślep. Mamy stały rytm, mniej przerw organizacyjnych i mniej drobnych problemów do rozwiązywania."</p>
-                <div class="proof-card-foot">
-                  <p class="proof-author">
-                    <strong class="proof-author-role" data-proof-author-role>Team Leader</strong>
-                    <span class="proof-author-meta" data-proof-author-meta>software team / 40 osób</span>
-                  </p>
-                  <span class="proof-card-index" data-proof-card-index>07</span>
-                </div>
-              </article>
-
-              <article class="proof-card" data-proof-card tabindex="0">
-                <div class="proof-card-head">
-                  <span class="proof-avatar" aria-hidden="true">CO</span>
-                  <span class="proof-verified" data-proof-verified>Po wdrożeniu</span>
-                </div>
-                <div class="proof-card-badges">
-                  <span class="proof-card-badge" data-proof-card-badge>logistyka</span>
-                  <span class="proof-card-badge" data-proof-card-badge>120 osób</span>
-                  <span class="proof-card-badge proof-card-badge--accent" data-proof-card-badge>szybkie korekty</span>
-                </div>
-                <p class="proof-stars" data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-                <p class="proof-quote">"Przy zmianach liczby porcji nie musimy przepychać tematu przez kilka osób. Reakcja jest szybka i to robi dużą różnicę operacyjnie."</p>
-                <div class="proof-card-foot">
-                  <p class="proof-author">
-                    <strong class="proof-author-role" data-proof-author-role>COO</strong>
-                    <span class="proof-author-meta" data-proof-author-meta>firma logistyczna / 120 osób</span>
-                  </p>
-                  <span class="proof-card-index" data-proof-card-index>08</span>
                 </div>
               </article>
             </div>
@@ -1118,11 +1069,10 @@
                   <span class="proof-card-index proof-sheet-index" data-proof-sheet-index>01</span>
                 </div>
               </div>
-              <button type="button" class="proof-sheet-close" data-proof-sheet-close aria-label="Zamknij pełną opinię">&times;</button>
+              <button type="button" class="proof-sheet-close" data-proof-sheet-close aria-label="Zamknij pełny dowód zaufania">&times;</button>
             </div>
             <div class="proof-sheet-body">
               <div class="proof-card-badges proof-sheet-badges" data-proof-sheet-badges></div>
-              <p class="proof-stars proof-sheet-stars" data-proof-sheet-stars data-proof-rating-label="Ocena 5/5">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
               <p class="proof-quote proof-sheet-quote" id="proof-sheet-title" data-proof-sheet-quote></p>
               <div class="proof-card-foot proof-sheet-foot">
                 <p class="proof-author">
@@ -1251,12 +1201,19 @@
           <a href="#proces">Jak zamówić?</a>
           <a href="#menu">Menu</a>
           <a href="#kontakt">Kontakt</a>
+          <a href="https://panviking.pl/kariera" target="_blank" rel="noreferrer">Kariera</a>
           <a href="https://www.instagram.com/panviking_pl/" target="_blank" rel="noreferrer">Instagram</a>
         </div>
       </div>
       <div class="footer-bottom">
-        <span>&copy; <span id="year"></span> <span data-footer-copy-text>Pan Viking. Wszelkie prawa zastrzeżone.</span></span>
-        <span>
+        <span class="footer-copyline">
+          <span>&copy; <span id="year"></span> <span data-footer-copy-text>Pan Viking. Wszelkie prawa zastrzeżone.</span></span>
+          <a class="footer-designer-credit" href="https://www.dajerdesign.pl/" target="_blank" rel="noreferrer" aria-label="Zaprojektował www.dajerdesign.pl" data-footer-designer-credit>
+            <span class="footer-designer-icon" aria-hidden="true">D</span>
+            <span class="footer-designer-tooltip" role="tooltip" data-footer-designer-tooltip>Zaprojektował www.dajerdesign.pl</span>
+          </a>
+        </span>
+        <span class="footer-legal-links">
           <a href="https://panviking.pl/polityka-prywatnosci" target="_blank" rel="noreferrer">Polityka prywatności</a>
           |
           <a href="https://panviking.pl/docs/regulamin_strony_Pan_Viking.pdf" target="_blank" rel="noreferrer">Regulamin serwisu</a>

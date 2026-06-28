@@ -65,10 +65,11 @@
         leadErrorDate: "Wybierz dzisiejszą lub późniejszą datę.",
         leadStepInvalid: "Sprawdź pola oznaczone na czerwono.",
         leadWebhookMissing: "Brak adresu webhook. Ustaw data-lead-webhook-url w sekcji #kontakt lub tagu body.",
+        leadWebhookUnavailable: "Formularz online nie jest jeszcze podłączony. Do czasu konfiguracji skorzystaj z telefonu lub e-maila pod formularzem.",
         leadSending: "Wysyłamy dane do handlowca...",
         leadSent: "Lead wysłany pomyślnie.",
         leadSendFailed: "Nie udało się wysłać formularza. Spróbuj ponownie albo zadzwoń.",
-        botWebhookMissing: "Nie mogę teraz wysłać zgłoszenia. Twoje odpowiedzi są zapisane. Spróbuj ponownie za chwilę.",
+        botWebhookMissing: "Formularz online nie jest jeszcze podłączony. Twoje odpowiedzi są zapisane w tej rozmowie, a do czasu konfiguracji skorzystaj z telefonu lub e-maila w sekcji kontaktu.",
         botSendFailed: "Nie udało się wysłać zgłoszenia. Twoje odpowiedzi są zapisane. Spróbuj ponownie.",
         leadModalOpen: "Umów test day - otwórz formularz",
         leadModalClose: "Zamknij formularz test day",
@@ -128,10 +129,11 @@
         leadErrorDate: "Choose today or a later date.",
         leadStepInvalid: "Please check fields marked in red.",
         leadWebhookMissing: "Webhook URL is missing. Set data-lead-webhook-url on #kontakt or body.",
+        leadWebhookUnavailable: "The online form is not connected yet. Until it is configured, use the phone number or email below the form.",
         leadSending: "Sending data to sales...",
         leadSent: "Lead sent successfully.",
         leadSendFailed: "Could not send the form. Try again or call us.",
-        botWebhookMissing: "I cannot send the request right now. Your answers are saved. Please try again shortly.",
+        botWebhookMissing: "The online form is not connected yet. Your answers are saved in this conversation; until it is configured, use the phone number or email in the contact section.",
         botSendFailed: "The request could not be sent. Your answers are saved. Please try again.",
         leadModalOpen: "Book test day - open the form",
         leadModalClose: "Close the test day form",
@@ -162,27 +164,27 @@
       pl: {
         documentTitle: "Pan Viking | Dostawa posiłków do biur",
         skipLink: "Przejdź do treści",
-        desktopNav: ["Gdzie dowozimy", "Jak zamówić", "Kariera", "Menu"],
-        mobileNav: ["Gdzie dowozimy", "Jak zamówić", "Kariera", "Menu"],
+        desktopNav: ["Gdzie dowozimy", "Jak zamówić", "Menu", "FAQ"],
+        mobileNav: ["Gdzie dowozimy", "Jak zamówić", "Menu", "FAQ"],
         navCta: "Umów test day",
         mobileMenuButton: "Menu",
         navPanelAria: "Panel nawigacyjny",
         desktopNavAria: "Nawigacja główna",
         navLogoSlotAria: "Wróć na górę strony",
         mobileNavAria: "Nawigacja mobilna",
-        heroKickers: ["Wizytówka marki", "Vikingowa logistyka", "Menu dla zespołu"],
+        heroKickers: ["Dostawy B2B do firm", "Stały rytm dostaw", "Menu, które pracuje w biurze"],
         heroTitles: [
           "PAN VIKING <strong>WJEŻDŻA</strong> DO TWOJEGO BIURA",
           "DOSTAWA, KTÓREJ <strong>NIE PILNUJESZ</strong>",
           "CODZIENNIE INNY <strong>POWER LUNCH</strong>",
         ],
         heroCopy: [
-          "Gotowe posiłki dla firm, dostarczane regularnie i bez komplikacji. Mocne smaki, jasne zasady i wygodny proces od pierwszego testu do codziennych dostaw.",
-          "Ustalamy godziny i punkty odbioru, a potem dowozimy regularnie. Bez chaosu, bez przypominania i bez kosztów dostawy.",
-          "Dania klasyczne, lżejsze, vege i keto - wszystko w jednym miejscu, z menu dopasowanym do realnego rytmu Twojej firmy.",
+          "Test day bez umowy, regularne dostawy i jeden kontakt po stronie handlowca. Sprawdzasz zasięg, umawiasz próbny dzień i dopiero potem decydujesz o stałej współpracy.",
+          "Ustalamy godziny, punkt odbioru i sposób kontaktu. Potem dowozimy regularnie, bez dodatkowej opłaty za dostawę i bez codziennego pilnowania tematu.",
+          "Klasyczne obiady, lżejsze opcje, vege i keto w jednym procesie dostaw. Zespół wybiera wygodnie, a administracja nie musi organizować lunchu od zera.",
         ],
         heroActionPrimary: ["Umów test day", "Umów test day", "Umów test day"],
-        heroActionSecondary: ["Zobacz menu", "Zobacz proces", "Sprawdź menu"],
+        heroActionSecondary: ["Sprawdź zasięg", "Zobacz proces", "Zobacz start"],
         heroTrustAria: "Najważniejsze warunki współpracy",
         heroTrust: ["Bez umowy na start", "Dostawa bez opłat", "HACCP i chłodnia", "Kontakt do 24h"],
         heroStats: [
@@ -237,9 +239,9 @@
         whyInsightPrimary: "Umów test dla firmy",
         whyInsightSecondary: "Jak działa współpraca",
         whyProgressPrefix: "Filar",
-        proofChip: "Opinie klientów",
-        proofTitle: "Firmy zostają z nami na dłużej, bo proces po prostu działa",
-        proofLead: "prosty start, stały rytm dostaw i menu, które realnie pracuje w biurze.",
+        proofChip: "Dowody zaufania",
+        proofTitle: "Decyzja jest łatwiejsza, gdy zasady są konkretne",
+        proofLead: "Zanim pokażemy podpisane referencje klientów, opieramy komunikację na faktach: zapleczu produkcyjnym, logistyce, warunkach startu i bezpieczeństwie dostaw.",
         proofKicker: "Oficjalne warunki + najczęstszy feedback po starcie",
         proofOverviewTitle: "Najpierw jasne zasady. Potem spokój, bo proces robi swoje.",
         proofOverviewCopy: "Na oficjalnej stronie powtarzają się te same przewagi: brak umowy na start, darmowa dostawa, stałe godziny i szeroki wybór dań. Karty niżej zbierają to, co firmy najczęściej doceniają po wdrożeniu.",
@@ -250,11 +252,11 @@
           "Szerokie menu z opcjami klasycznymi, vege, vegan i keto.",
         ],
         proofMetricLabels: ["Miast z aktywną obsługą", "Dostawy przez cały tydzień", "Dodatkowych kosztów dostawy"],
-        proofVerifiedLabel: "Po wdrożeniu",
-        proofStarsAria: "Ocena 5 na 5",
-        proofModalOpen: "Otwórz pełną opinię klienta",
-        proofModalClose: "Zamknij pełną opinię klienta",
-        proofModalLabel: "Pełna opinia klienta",
+        proofVerifiedLabel: "Zweryfikowany fakt",
+        proofVerifiedLabels: ["Zweryfikowany fakt", "Zweryfikowany fakt", "Warunek startu", "Bezpieczeństwo", "Aktywny zasięg", "Do podmiany po zgodzie"],
+        proofModalOpen: "Otwórz pełny dowód zaufania",
+        proofModalClose: "Zamknij pełny dowód zaufania",
+        proofModalLabel: "Pełny dowód zaufania",
         proofSliderCaption: "Najczęstszy feedback po starcie",
         proofSliderHint: "Przesuń, kliknij kartę, kropkę albo użyj strzałek",
         proofSliderPrevAria: "Poprzednia opinia",
@@ -262,44 +264,36 @@
         proofSliderDotsAria: "Nawigacja opinii",
         proofSliderDotAria: "Opinia {index} z {total}",
         proofCardBadges: [
-          ["firma IT", "95 osób", "przewidywalność"],
-          ["centrum usług", "130 osób", "test day"],
-          ["produkcja", "80 osób", "1 opiekun"],
-          ["finanse", "60 osób", "różnorodne menu"],
-          ["workplace", "48 osób", "bez umowy"],
-          ["ssc", "170 osób", "proste rozliczenie"],
-          ["team lead", "40 osób", "mniej chaosu"],
-          ["logistyka", "120 osób", "szybkie korekty"],
+          ["produkcja", "Kuchnia Vikinga", "skala"],
+          ["logistyka", "7 dni", "stały rytm"],
+          ["test day", "bez umowy", "bez dostawy"],
+          ["HACCP", "chłodnia", "termoboksy"],
+          ["miasta", "mapa", "sprawdzenie"],
+          ["logo klienta", "rola", "efekt"],
         ],
         proofQuotes: [
-          "\"Największa różnica to przewidywalność. Ludzie wiedzą, kiedy i co dostaną, a ja nie tracę czasu na gaszenie tematów ad hoc.\"",
-          "\"Test day zrobił robotę. Zespół szybko wybrał ulubione dania i od tego momentu mamy spokojny, powtarzalny model.\"",
-          "\"Doceniamy jednego opiekuna i szybkie korekty liczby porcji. Operacyjnie to bardzo wygodne po stronie administracji.\"",
-          "\"Mamy mix preferencji w zespole, ale dzięki różnorodnemu menu każdy znajduje coś dla siebie i maleje liczba skarg.\"",
-          "\"To był prosty start. Bez długiego procesu decyzyjnego sprawdziliśmy model w praktyce i szybko weszliśmy w regularne dostawy.\"",
-          "\"Kosztowo model jest czytelny, a brak dodatkowej opłaty za dostawę ułatwia nam komunikację i planowanie po stronie firmy.\"",
-          "\"Zespół przestał rozchodzić się po lunch na oślep. Mamy stały rytm, mniej przerw organizacyjnych i mniej drobnych problemów do rozwiązywania.\"",
-          "\"Przy zmianach liczby porcji nie musimy przepychać tematu przez kilka osób. Reakcja jest szybka i to robi dużą różnicę operacyjnie.\"",
+          "Posiłki powstają w oparciu o zaplecze Kuchni Vikinga, więc sprzedaż B2B nie zaczyna od obietnicy bez pokrycia, tylko od istniejącej produkcji i procesu.",
+          "Dostawy można ustalać w stałych godzinach i punktach odbioru. To ważne dla administracji, HR i office managerów, którzy potrzebują przewidywalnego procesu.",
+          "Firma może zacząć od dnia testowego, bez podpisywania długiej umowy na starcie. To obniża ryzyko decyzji i pozwala zebrać realny feedback zespołu.",
+          "Komunikacja strony jasno pokazuje ciąg chłodniczy, termoboksy i standard HACCP. To konkret dla firm, które muszą myśleć o bezpieczeństwie żywności.",
+          "Sekcja zasięgu pracuje jak narzędzie sprzedażowe: decydent wpisuje miasto, widzi region i od razu przechodzi do rozmowy o wdrożeniu.",
+          "Miejsce na podpisaną referencję klienta: nazwa firmy, rola osoby, miasto lub typ lokalizacji, liczba pracowników i jeden konkretny efekt po test day.",
         ],
         proofAuthorRoles: [
-          "Office Manager",
-          "People Ops",
-          "Administracja biura",
-          "HR Manager",
-          "Workplace Experience",
-          "Finance Manager",
-          "Team Leader",
-          "COO",
+          "Zaplecze produkcyjne",
+          "Rytm dostaw",
+          "Prosty start",
+          "Standard dostawy",
+          "Mapa dostaw",
+          "Podpisana referencja",
         ],
         proofAuthorMeta: [
-          "firma IT / 95 osób",
-          "centrum usług / 130 osób",
-          "firma produkcyjna / 80 osób",
-          "firma finansowa / 60 osób",
-          "software house / 48 osób",
-          "centrum usług wspólnych / 170 osób",
-          "software team / 40 osób",
-          "firma logistyczna / 120 osób",
+          "źródło: komunikacja marki Pan Viking",
+          "dostawy przez cały tydzień",
+          "test day jako pierwszy krok",
+          "proces od kuchni do biura",
+          "238 miast w lokalnych danych",
+          "publikować dopiero po zgodzie klienta",
         ],
         coverageChip: "Gdzie dowozimy",
         coverageTitle: "Sprawdź, czy dowozimy do Twojego biura",
@@ -452,7 +446,7 @@
           phone: "Telefon",
           city: "Miasto *",
           headcount: "Liczba osób w zespole *",
-          deliveryAddress: "Adres dostawy, piętro *",
+          deliveryAddress: "Adres dostawy, piętro",
           preferredHours: "Preferowane godziny",
           testDayDate: "Preferowana data test day",
           notes: "Uwagi dla handlowca",
@@ -460,6 +454,7 @@
         leadPlaceholders: {
           phone: "+48 500 000 000",
           headcount: "np. 25",
+          deliveryAddress: "Opcjonalnie, jeśli znasz już lokalizację",
           preferredHours: "np. 11:00-13:00",
           notes: "Np. dni testowe, lokalizacja odbioru, priorytety zespołu",
         },
@@ -477,8 +472,9 @@
         leadSuccessCopy: "Sprawdzimy Twoje dane. Standardowo wracamy z kontaktem maksymalnie w ciągu 24h.",
         leadSuccessReset: "Wyślij kolejne zgłoszenie",
         leadSuccessCall: "Zadzwoń teraz",
-        footerLinks: ["Oferta", "Gdzie dowozimy", "Jak zamówić", "Menu", "Kontakt", "Instagram"],
+        footerLinks: ["Oferta", "Gdzie dowozimy", "Jak zamówić", "Menu", "Kontakt", "Kariera", "Instagram"],
         footerCopyright: "Pan Viking. Wszelkie prawa zastrzeżone.",
+        footerDesignerCredit: "Zaprojektował www.dajerdesign.pl",
         footerLegalPrivacy: "Polityka prywatności",
         footerLegalTerms: "Regulamin serwisu",
         botTitle: "Viking Bot",
@@ -519,7 +515,7 @@
           phone: "Jeśli chcesz, podaj też numer telefonu.",
           city: "W jakim mieście działa biuro lub punkt dostawy?",
           headcount: "Ile osób liczy zespół, dla którego planujecie test day?",
-          deliveryAddress: "Jaki adres dostawy i piętro mamy uwzględnić?",
+          deliveryAddress: "Jeśli znasz dokładny adres lub piętro, podaj je opcjonalnie.",
           preferredHours: "Jakie godziny dostawy są dla Was najwygodniejsze?",
           testDayDate: "Jeśli masz preferencje, podaj datę test day.",
           notes: "Czy są jeszcze uwagi dla handlowca?",
@@ -529,27 +525,27 @@
       en: {
         documentTitle: "Pan Viking | Office Meal Delivery",
         skipLink: "Skip to content",
-        desktopNav: ["Delivery area", "How to order", "Careers", "Menu"],
-        mobileNav: ["Delivery area", "How to order", "Careers", "Menu"],
+        desktopNav: ["Delivery area", "How to order", "Menu", "FAQ"],
+        mobileNav: ["Delivery area", "How to order", "Menu", "FAQ"],
         navCta: "Book test day",
         mobileMenuButton: "Menu",
         navPanelAria: "Navigation panel",
         desktopNavAria: "Main navigation",
         navLogoSlotAria: "Back to top of page",
         mobileNavAria: "Mobile navigation",
-        heroKickers: ["Brand showcase", "Viking logistics", "Team menu"],
+        heroKickers: ["B2B office delivery", "Steady delivery rhythm", "A menu built for offices"],
         heroTitles: [
           "PAN VIKING <strong>ARRIVES</strong> AT YOUR OFFICE",
           "DELIVERY YOU <strong>DON'T HAVE TO CHASE</strong>",
           "A DIFFERENT <strong>POWER LUNCH</strong> EVERY DAY",
         ],
         heroCopy: [
-          "Ready meals for companies, delivered regularly and without complications. Strong flavors, clear rules and a smooth process from test day to daily delivery.",
-          "We set delivery windows and drop-off points, then keep the rhythm. No chaos, no reminders, no extra delivery stress.",
-          "Classic, light, vege and keto options in one place, with menu choices that fit your real office routine.",
+          "A no-contract test day, regular deliveries and one sales contact. Check coverage, book a trial day and decide on regular cooperation only after the team tries it.",
+          "We agree on delivery windows, drop-off point and contact flow. Then we deliver regularly, with no extra delivery fee and no daily chasing.",
+          "Classic lunches, lighter meals, vege and keto options in one delivery process. The team chooses easily, while admin avoids organizing lunch from scratch.",
         ],
         heroActionPrimary: ["Book test day", "Book test day", "Book test day"],
-        heroActionSecondary: ["Browse menu", "See process", "Browse menu"],
+        heroActionSecondary: ["Check coverage", "See process", "See the start"],
         heroTrustAria: "Key cooperation terms",
         heroTrust: ["No contract to start", "No delivery fee", "HACCP and cold chain", "Response within 24h"],
         heroStats: [
@@ -605,8 +601,8 @@
         whyInsightSecondary: "How cooperation works",
         whyProgressPrefix: "Pillar",
         proofChip: "Client reviews",
-        proofTitle: "Companies stay with us because the process simply works",
-        proofLead: "easy start, steady delivery rhythm and a menu that genuinely works in the office.",
+        proofTitle: "The decision is easier when the rules are concrete",
+        proofLead: "Until signed client references are available, the page builds trust on verified facts: production backing, logistics, start conditions and delivery safety.",
         proofKicker: "Official terms + recurring post-launch feedback",
         proofOverviewTitle: "Clear rules first. Then less friction because the process runs on its own.",
         proofOverviewCopy: "The official site keeps repeating the same advantages: no contract to start, free delivery, agreed delivery windows and broad menu choice. The cards below group the themes teams value most after launch.",
@@ -617,11 +613,11 @@
           "Broad menu choice including classic, veggie, vegan and keto options.",
         ],
         proofMetricLabels: ["Cities with active coverage", "Deliveries all week", "Extra delivery fees"],
-        proofVerifiedLabel: "Post-launch",
-        proofStarsAria: "Rating 5 out of 5",
-        proofModalOpen: "Open full client review",
-        proofModalClose: "Close full client review",
-        proofModalLabel: "Full client review",
+        proofVerifiedLabel: "Verified fact",
+        proofVerifiedLabels: ["Verified fact", "Verified fact", "Start condition", "Safety", "Active coverage", "Replace after approval"],
+        proofModalOpen: "Open full trust proof",
+        proofModalClose: "Close full trust proof",
+        proofModalLabel: "Full trust proof",
         proofSliderCaption: "Most common feedback after launch",
         proofSliderHint: "Swipe, click a card, tap a dot or use arrow keys",
         proofSliderPrevAria: "Previous review",
@@ -629,44 +625,36 @@
         proofSliderDotsAria: "Reviews navigation",
         proofSliderDotAria: "Review {index} of {total}",
         proofCardBadges: [
-          ["IT company", "95 people", "predictability"],
-          ["service center", "130 people", "test day"],
-          ["manufacturing", "80 people", "one contact"],
-          ["finance", "60 people", "menu variety"],
-          ["workplace", "48 people", "no contract"],
-          ["ssc", "170 people", "clear billing"],
-          ["team lead", "40 people", "less chaos"],
-          ["logistics", "120 people", "fast updates"],
+          ["production", "Kuchnia Vikinga", "scale"],
+          ["logistics", "7 days", "steady rhythm"],
+          ["test day", "no contract", "no delivery fee"],
+          ["HACCP", "cold chain", "thermoboxes"],
+          ["cities", "map", "check"],
+          ["client logo", "role", "effect"],
         ],
         proofQuotes: [
-          "\"The biggest difference is predictability. People know what and when they get it, and I no longer spend time firefighting lunch issues.\"",
-          "\"The test day made the decision easy. The team quickly picked favorites and we moved into a stable routine.\"",
-          "\"We value one account manager and quick portion updates. Operationally it's very convenient for admin.\"",
-          "\"We have mixed dietary preferences, and the menu variety means everyone finds something. Complaints dropped.\"",
-          "\"It was an easy start. We tested the model in practice without a long internal process and moved into regular deliveries quickly.\"",
-          "\"From a budget perspective the model is easy to explain, and no extra delivery fee makes internal planning simpler.\"",
-          "\"The team stopped scattering for lunch with no plan. We now have a steady rhythm, fewer disruptions and fewer small issues to solve.\"",
-          "\"When portion numbers change, we do not need to push the topic through several people. The response is quick and that matters operationally.\"",
+          "Meals are backed by Kuchnia Vikinga's existing production base, so the B2B offer starts from a real process rather than an unsupported promise.",
+          "Delivery windows and drop-off points can be agreed up front. That matters for admin, HR and office managers who need predictable operations.",
+          "A company can begin with a test day, without a long contract at the start. That lowers decision risk and creates room for real team feedback.",
+          "The page clearly communicates cold chain, thermoboxes and HACCP standards. This gives companies a concrete answer on food safety.",
+          "The coverage section works like a sales tool: the decision-maker types a city, sees the region and moves straight into a rollout conversation.",
+          "Slot for a signed client reference: company name, person role, city or location type, team size and one concrete result after the test day.",
         ],
         proofAuthorRoles: [
-          "Office Manager",
-          "People Ops",
-          "Office Administration",
-          "HR Manager",
-          "Workplace Experience",
-          "Finance Manager",
-          "Team Leader",
-          "COO",
+          "Production backing",
+          "Delivery rhythm",
+          "Easy start",
+          "Delivery standard",
+          "Coverage map",
+          "Signed reference",
         ],
         proofAuthorMeta: [
-          "IT company / 95 people",
-          "service center / 130 people",
-          "manufacturing company / 80 people",
-          "finance company / 60 people",
-          "software house / 48 people",
-          "shared services center / 170 people",
-          "software team / 40 people",
-          "logistics company / 120 people",
+          "source: Pan Viking brand communication",
+          "deliveries all week",
+          "test day as the first step",
+          "process from kitchen to office",
+          "238 cities in local data",
+          "publish only after client approval",
         ],
         coverageChip: "Delivery area",
         coverageTitle: "Check whether we deliver to your office",
@@ -819,7 +807,7 @@
           phone: "Phone",
           city: "City *",
           headcount: "Team size *",
-          deliveryAddress: "Delivery address, floor *",
+          deliveryAddress: "Delivery address, floor",
           preferredHours: "Preferred hours",
           testDayDate: "Preferred test day date",
           notes: "Notes for sales",
@@ -827,6 +815,7 @@
         leadPlaceholders: {
           phone: "+48 500 000 000",
           headcount: "e.g. 25",
+          deliveryAddress: "Optional, if you already know the location",
           preferredHours: "e.g. 11:00-13:00",
           notes: "e.g. test day options, drop-off location, team priorities",
         },
@@ -844,8 +833,9 @@
         leadSuccessCopy: "We will verify your details. Standard response time is up to 24h.",
         leadSuccessReset: "Send another request",
         leadSuccessCall: "Call now",
-        footerLinks: ["Offer", "Delivery area", "How to order", "Menu", "Contact", "Instagram"],
+        footerLinks: ["Offer", "Delivery area", "How to order", "Menu", "Contact", "Careers", "Instagram"],
         footerCopyright: "Pan Viking. All rights reserved.",
+        footerDesignerCredit: "Designed by www.dajerdesign.pl",
         footerLegalPrivacy: "Privacy policy",
         footerLegalTerms: "Terms of service",
         botTitle: "Viking Bot",
@@ -886,7 +876,7 @@
           phone: "If you want, add a phone number too.",
           city: "Which city is the office or delivery point in?",
           headcount: "How many people are in the team you want to plan the test day for?",
-          deliveryAddress: "Which delivery address and floor should we include?",
+          deliveryAddress: "If you know the exact address or floor, add it optionally.",
           preferredHours: "What delivery hours work best for you?",
           testDayDate: "If you have a preference, share the test day date.",
           notes: "Any extra notes for sales?",
@@ -1201,7 +1191,7 @@
           const quote = copy.proofQuotes?.[index] || "";
           const badgeCopy = copy.proofCardBadges?.[index] || [];
           const verified = card.querySelector("[data-proof-verified]");
-          if (verified) verified.textContent = copy.proofVerifiedLabel;
+          if (verified) verified.textContent = copy.proofVerifiedLabels?.[index] || copy.proofVerifiedLabel;
           const stars = card.querySelector(".proof-stars");
           if (stars) {
             stars.setAttribute("aria-label", copy.proofStarsAria);
@@ -1395,7 +1385,13 @@
 
       setNodeListText(".footer-links a", copy.footerLinks);
       setTextContent("[data-footer-copy-text]", copy.footerCopyright);
-      const legalLinks = document.querySelectorAll(".footer-bottom a");
+      setTextContent("[data-footer-designer-tooltip]", copy.footerDesignerCredit);
+      const designerCredit = document.querySelector("[data-footer-designer-credit]");
+      if (designerCredit) {
+        designerCredit.setAttribute("aria-label", copy.footerDesignerCredit);
+        designerCredit.setAttribute("title", copy.footerDesignerCredit);
+      }
+      const legalLinks = document.querySelectorAll(".footer-legal-links a");
       if (legalLinks[0]) legalLinks[0].textContent = copy.footerLegalPrivacy;
       if (legalLinks[1]) legalLinks[1].textContent = copy.footerLegalTerms;
 
@@ -1566,8 +1562,6 @@
         } else {
           brand.style.setProperty("--dock-shift-x", "0px");
         }
-      } else if (shouldDock) {
-        updateBrandDockShift(true);
       }
 
       lastHeaderScrollY = currentScrollY;
@@ -1873,7 +1867,7 @@
           {
             id: "deliveryAddress",
             type: "text",
-            required: true,
+            required: false,
             label: stripRequiredMarker(copy.leadFieldLabels.deliveryAddress),
             question: copy.botQuestions.deliveryAddress,
             placeholder: copy.botFieldPlaceholders.deliveryAddress,
@@ -3105,6 +3099,10 @@
         trackEvent("lead_modal_open", {
           source: trigger?.dataset?.leadModalSource || "contact_section",
         });
+        if (!getLeadWebhookUrl()) {
+          setFeedback(t("leadWebhookUnavailable"), "error");
+          trackEvent("lead_webhook_missing", { surface: "lead_modal_open" });
+        }
         document.dispatchEvent(new CustomEvent("pv:lead-modal-open"));
 
         requestAnimationFrame(() => {
@@ -3171,7 +3169,8 @@
 
         const leadWebhookUrl = getLeadWebhookUrl();
         if (!leadWebhookUrl) {
-          setFeedback(t("leadWebhookMissing"), "error");
+          setFeedback(t("leadWebhookUnavailable"), "error");
+          trackEvent("lead_submit_error", { reason: "missing_webhook" });
           return;
         }
 
@@ -5561,8 +5560,11 @@
       let expandedCard = null;
       let insightSwapTimer = 0;
       let scrollTicking = false;
+      let isSectionInRange = !("IntersectionObserver" in window);
       const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
       const finePointerQuery = window.matchMedia("(pointer: fine)");
+      const hoverlessQuery = window.matchMedia("(hover: none)");
+      const shouldUseStaticStack = () => reducedMotionQuery.matches || (hoverlessQuery.matches && window.innerWidth <= 900);
       const clamp = (value, min = 0, max = 1) => Math.min(max, Math.max(min, value));
       const lerp = (from, to, progress) => from + ((to - from) * progress);
 
@@ -5583,8 +5585,6 @@
         cards.forEach((card, index) => {
           card.style.setProperty("--card-stack-padding", `${index * stackStep}px`);
           card.style.setProperty("--card-scale", "1");
-          card.style.setProperty("--card-brightness", "1");
-          card.style.setProperty("--card-saturate", "1");
           card.style.setProperty("--card-shift", "0px");
           card.style.setProperty("--card-depth", "0px");
           card.style.setProperty("--card-rotate-x", "0deg");
@@ -5687,6 +5687,9 @@
 
       const scrollToCard = (card, focusAfterScroll = false) => {
         if (!card) return;
+        if (shouldUseStaticStack()) {
+          setActiveCard(card, { force: true });
+        }
         const isSmallScreen = window.matchMedia("(max-width: 700px)").matches;
         card.scrollIntoView({
           behavior: reducedMotionQuery.matches ? "auto" : "smooth",
@@ -5733,7 +5736,6 @@
           const isSmallScreen = window.innerWidth <= 620;
           const scaleDropPerStep = isSmallScreen ? 0.028 : 0.038;
           const targetScale = Math.max(0.88, 1 - (depth * scaleDropPerStep));
-          const targetBrightness = Math.max(0.82, 1 - (depth * 0.05));
           const targetDepth = depth * (isSmallScreen ? -16 : -24);
           const targetRotateX = depth * (isSmallScreen ? 3.2 : 4.6);
           const targetRotateY = depth * (index % 2 === 0 ? -0.7 : 0.7);
@@ -5742,8 +5744,6 @@
           const activePitch = isCurrentActive && !reducedMotionQuery.matches ? -1.2 : 0;
           const baseGlow = isCurrentActive ? 0.82 : 0.12;
           const scale = nextCard ? lerp(1, targetScale, progress) : 1;
-          const brightness = nextCard ? lerp(1, targetBrightness, progress) : 1;
-          const saturate = nextCard ? lerp(1, 0.94, progress) : 1;
           const shift = nextCard ? lerp(0, depth * (isSmallScreen ? 8 : 12), progress) : 0;
           const cardDepth = nextCard ? lerp(activeLift, targetDepth, progress) : activeLift;
           const rotateX = nextCard ? lerp(activePitch, targetRotateX, progress) : activePitch;
@@ -5754,8 +5754,6 @@
           card.classList.toggle("is-stacked", progress > 0.04);
           card.classList.toggle("is-waiting", nextCard ? progress < 0.02 : false);
           card.style.setProperty("--card-scale", scale.toFixed(3));
-          card.style.setProperty("--card-brightness", brightness.toFixed(3));
-          card.style.setProperty("--card-saturate", saturate.toFixed(3));
           card.style.setProperty("--card-shift", `${shift.toFixed(2)}px`);
           card.style.setProperty("--card-depth", `${cardDepth.toFixed(2)}px`);
           card.style.setProperty("--card-rotate-x", `${rotateX.toFixed(2)}deg`);
@@ -5767,12 +5765,16 @@
 
       const renderStack = () => {
         const scrolledActiveCard = getActiveCardFromScroll();
-        updateCardStack(scrolledActiveCard);
+        if (!shouldUseStaticStack()) {
+          updateCardStack(scrolledActiveCard);
+        }
         setActiveCard(scrolledActiveCard);
         scrollTicking = false;
       };
 
       const scheduleActiveCardUpdate = () => {
+        if (shouldUseStaticStack()) return;
+        if (!isSectionInRange) return;
         if (scrollTicking) return;
         scrollTicking = true;
         window.requestAnimationFrame(renderStack);
@@ -5780,6 +5782,34 @@
 
       cards.forEach((card) => {
         const actionButton = card.querySelector(".why-card-action");
+        let tiltFrame = 0;
+        let tiltX = 0;
+        let tiltY = 0;
+
+        const resetTilt = () => {
+          if (tiltFrame) {
+            window.cancelAnimationFrame(tiltFrame);
+            tiltFrame = 0;
+          }
+          card.style.removeProperty("--mx");
+          card.style.removeProperty("--my");
+          card.style.setProperty("--card-tilt-x", "0deg");
+          card.style.setProperty("--card-tilt-y", "0deg");
+        };
+
+        const renderTilt = () => {
+          tiltFrame = 0;
+          const shell = card.querySelector(".why-card-shell");
+          const rect = shell?.getBoundingClientRect() || card.getBoundingClientRect();
+          const x = clamp(tiltX - rect.left, 0, rect.width);
+          const y = clamp(tiltY - rect.top, 0, rect.height);
+          const offsetX = clamp((x / rect.width), 0, 1) - 0.5;
+          const offsetY = clamp((y / rect.height), 0, 1) - 0.5;
+          card.style.setProperty("--mx", `${x}px`);
+          card.style.setProperty("--my", `${y}px`);
+          card.style.setProperty("--card-tilt-y", `${(offsetX * 5.2).toFixed(2)}deg`);
+          card.style.setProperty("--card-tilt-x", `${(offsetY * -4.4).toFixed(2)}deg`);
+        };
 
         card.addEventListener("click", () => {
           scrollToCard(card);
@@ -5816,24 +5846,14 @@
 
         card.addEventListener("pointermove", (event) => {
           if (reducedMotionQuery.matches || !finePointerQuery.matches) return;
-          const shell = card.querySelector(".why-card-shell");
-          const rect = shell?.getBoundingClientRect() || card.getBoundingClientRect();
-          const x = clamp(event.clientX - rect.left, 0, rect.width);
-          const y = clamp(event.clientY - rect.top, 0, rect.height);
-          const offsetX = clamp((x / rect.width), 0, 1) - 0.5;
-          const offsetY = clamp((y / rect.height), 0, 1) - 0.5;
-          card.style.setProperty("--mx", `${x}px`);
-          card.style.setProperty("--my", `${y}px`);
-          card.style.setProperty("--card-tilt-y", `${(offsetX * 5.2).toFixed(2)}deg`);
-          card.style.setProperty("--card-tilt-x", `${(offsetY * -4.4).toFixed(2)}deg`);
+          tiltX = event.clientX;
+          tiltY = event.clientY;
+          if (!tiltFrame) {
+            tiltFrame = window.requestAnimationFrame(renderTilt);
+          }
         });
 
-        card.addEventListener("pointerleave", () => {
-          card.style.removeProperty("--mx");
-          card.style.removeProperty("--my");
-          card.style.setProperty("--card-tilt-x", "0deg");
-          card.style.setProperty("--card-tilt-y", "0deg");
-        });
+        card.addEventListener("pointerleave", resetTilt);
 
         actionButton?.addEventListener("click", (event) => {
           event.preventDefault();
@@ -5876,11 +5896,24 @@
         }
       }
 
+      if ("IntersectionObserver" in window) {
+        const rangeObserver = new IntersectionObserver((entries) => {
+          const [entry] = entries;
+          isSectionInRange = Boolean(entry?.isIntersecting);
+          if (isSectionInRange) {
+            scheduleActiveCardUpdate();
+          }
+        }, { threshold: 0, rootMargin: "45% 0px 45% 0px" });
+        rangeObserver.observe(section);
+      }
+
       updateMetrics();
       const initialCard = cards.find((card) => card.classList.contains("is-active")) || cards[0];
       setActiveCard(initialCard, { force: true });
       cards.forEach((card) => syncDetailButton(card, false));
-      window.addEventListener("scroll", scheduleActiveCardUpdate, { passive: true });
+      if (!shouldUseStaticStack()) {
+        window.addEventListener("scroll", scheduleActiveCardUpdate, { passive: true });
+      }
       window.addEventListener("resize", () => {
         updateMetrics();
         scheduleActiveCardUpdate();
@@ -5933,11 +5966,13 @@
       let wallStartX = 0;
       let wallStartY = 0;
       let wallDragged = false;
+      let isProofInRange = !("IntersectionObserver" in window);
 
       const clamp = (value, min, max) => Math.min(max, Math.max(min, value));
       const lerp = (start, end, progress) => start + ((end - start) * progress);
       const smoothstep = (value) => value * value * (3 - (2 * value));
       const isMobileProofUi = () => window.innerWidth <= 620;
+      const shouldUseStaticLayout = () => reducedMotionQuery.matches || (hoverlessQuery.matches && window.innerWidth <= 900);
 
       const syncCardA11y = () => {
         const isCompact = isMobileProofUi();
@@ -5975,7 +6010,7 @@
       });
 
       const renderSheetFromCard = (card) => {
-        if (!card || !sheetAvatar || !sheetVerified || !sheetIndex || !sheetBadges || !sheetStars || !sheetQuote || !sheetRole || !sheetMetaText) return;
+        if (!card || !sheetAvatar || !sheetVerified || !sheetIndex || !sheetBadges || !sheetQuote || !sheetRole || !sheetMetaText) return;
         const avatar = card.querySelector(".proof-avatar");
         const verified = card.querySelector("[data-proof-verified]");
         const indexNode = card.querySelector("[data-proof-card-index]");
@@ -5988,8 +6023,10 @@
         sheetAvatar.textContent = avatar?.textContent?.trim() || "";
         sheetVerified.textContent = verified?.textContent?.trim() || "";
         sheetIndex.textContent = indexNode?.textContent?.trim() || "";
-        sheetStars.textContent = stars?.textContent?.trim() || "";
-        if (stars?.getAttribute("aria-label")) {
+        if (sheetStars) {
+          sheetStars.textContent = stars?.textContent?.trim() || "";
+        }
+        if (sheetStars && stars?.getAttribute("aria-label")) {
           sheetStars.setAttribute("aria-label", stars.getAttribute("aria-label"));
           sheetStars.setAttribute("title", stars.getAttribute("aria-label"));
         }
@@ -6102,14 +6139,13 @@
           card.style.setProperty("--card-reveal-z", "0px");
           card.style.setProperty("--card-reveal-rotate-x", "0deg");
           card.style.setProperty("--card-reveal-opacity", "1");
-          card.style.setProperty("--card-reveal-blur", "0px");
         });
       };
 
       const updateRows = () => {
         frameId = 0;
 
-        if (reducedMotionQuery.matches || (hoverlessQuery.matches && window.innerWidth <= 900)) {
+        if (shouldUseStaticLayout() || reducedMotionQuery.matches || (hoverlessQuery.matches && window.innerWidth <= 900)) {
           applyStaticLayout();
           return;
         }
@@ -6143,22 +6179,20 @@
           const revealYStart = isMobile ? 18 : 30 + ((columnIndex % 2) * 5);
           const revealZStart = isMobile ? -14 : -32;
           const revealRotateXStart = isMobile ? 3 : 7;
-          const revealBlurStart = isMobile ? 5 : 10;
           card.style.setProperty("--card-reveal-x", `${lerp(revealXStart, 0, reveal).toFixed(2)}px`);
           card.style.setProperty("--card-reveal-y", `${lerp(revealYStart, 0, reveal).toFixed(2)}px`);
           card.style.setProperty("--card-reveal-z", `${lerp(revealZStart, 0, reveal).toFixed(2)}px`);
           card.style.setProperty("--card-reveal-rotate-x", `${lerp(revealRotateXStart, 0, reveal).toFixed(2)}deg`);
           card.style.setProperty("--card-reveal-opacity", reveal.toFixed(3));
-          card.style.setProperty("--card-reveal-blur", `${lerp(revealBlurStart, 0, reveal).toFixed(2)}px`);
         });
       };
 
       const scheduleUpdate = () => {
+        if (!isProofInRange) return;
         if (frameId) return;
         frameId = window.requestAnimationFrame(updateRows);
       };
 
-      const shouldUseStaticLayout = () => reducedMotionQuery.matches || (hoverlessQuery.matches && window.innerWidth <= 900);
       const onResize = () => {
         syncCardA11y();
         if (!isMobileProofUi()) {
@@ -6171,11 +6205,13 @@
         applyStaticLayout();
       }
 
-      if ("IntersectionObserver" in window) {
+      if (!shouldUseStaticLayout() && "IntersectionObserver" in window) {
         const observer = new IntersectionObserver((entries) => {
           entries.forEach((entry) => {
-            if (!entry.isIntersecting) return;
-            scheduleUpdate();
+            isProofInRange = entry.isIntersecting;
+            if (isProofInRange) {
+              scheduleUpdate();
+            }
           });
         }, {
           threshold: 0,
@@ -6185,7 +6221,9 @@
         observer.observe(shell);
       }
 
-      window.addEventListener("scroll", scheduleUpdate, { passive: true });
+      if (!shouldUseStaticLayout()) {
+        window.addEventListener("scroll", scheduleUpdate, { passive: true });
+      }
       window.addEventListener("load", scheduleUpdate);
       updateRows();
 
@@ -6222,6 +6260,7 @@
       const dots = Array.from(slider.querySelectorAll("[data-hero-dot]"));
       const prevButton = slider.querySelector("[data-hero-prev]");
       const nextButton = slider.querySelector("[data-hero-next]");
+      const progressFill = slider.querySelector(".hero-progress-fill");
       const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
       const autoplayMs = Math.max(4200, Number(slider.dataset.autoplayMs) || 6200);
       const slideMediaLoads = new WeakMap();
@@ -6281,6 +6320,10 @@
 
       const setProgress = (value) => {
         const normalizedValue = Math.min(Math.max(value, 0), 1);
+        if (progressFill instanceof HTMLElement) {
+          progressFill.style.transform = `scaleX(${normalizedValue.toFixed(4)})`;
+          return;
+        }
         slider.style.setProperty("--hero-progress", String(normalizedValue));
       };
 
@@ -6494,6 +6537,54 @@
       observer.observe(section);
     };
 
+    const initStableAnchorNavigation = () => {
+      const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const correctionDelays = [80, 240, 520, 980];
+
+      const getLocalAnchorTarget = (link) => {
+        if (!(link instanceof HTMLAnchorElement)) return null;
+        const rawHref = link.getAttribute("href") || "";
+        if (!rawHref.startsWith("#") || rawHref === "#") return null;
+        const targetId = decodeURIComponent(rawHref.slice(1));
+        if (!targetId) return null;
+        return document.getElementById(targetId);
+      };
+
+      const scrollToAnchorTarget = (target, { smooth = true, updateHash = false } = {}) => {
+        if (!(target instanceof HTMLElement)) return;
+        const behavior = smooth && !reducedMotionQuery.matches ? "smooth" : "auto";
+        target.scrollIntoView({ block: "start", inline: "nearest", behavior });
+
+        correctionDelays.forEach((delay) => {
+          window.setTimeout(() => {
+            if (!target.isConnected) return;
+            target.scrollIntoView({ block: "start", inline: "nearest", behavior: "auto" });
+          }, delay);
+        });
+
+        if (updateHash && target.id) {
+          window.history.pushState(null, "", `#${target.id}`);
+        }
+      };
+
+      document.addEventListener("click", (event) => {
+        const target = event.target;
+        if (!(target instanceof Element)) return;
+        const link = target.closest("a[href^='#']");
+        const section = getLocalAnchorTarget(link);
+        if (!section) return;
+        event.preventDefault();
+        scrollToAnchorTarget(section, { smooth: true, updateHash: true });
+      });
+
+      if (window.location.hash.length > 1) {
+        const initialTarget = document.getElementById(decodeURIComponent(window.location.hash.slice(1)));
+        if (initialTarget) {
+          window.setTimeout(() => scrollToAnchorTarget(initialTarget, { smooth: false, updateHash: false }), 120);
+        }
+      }
+    };
+
     // ==========================================================================
     // One-page navigation state
     // ==========================================================================
@@ -6523,6 +6614,7 @@
     };
 
     if (sections.length) {
+      let activeLinkFrame = 0;
       const updateActiveOnScroll = () => {
         const marker = window.scrollY + window.innerHeight * 0.35;
         let activeSectionId = sections[0].id;
@@ -6536,8 +6628,16 @@
         setActiveLink(activeSectionId);
       };
 
+      const scheduleActiveLinkUpdate = () => {
+        if (activeLinkFrame) return;
+        activeLinkFrame = window.requestAnimationFrame(() => {
+          activeLinkFrame = 0;
+          updateActiveOnScroll();
+        });
+      };
+
       updateActiveOnScroll();
-      window.addEventListener("scroll", updateActiveOnScroll, { passive: true });
+      window.addEventListener("scroll", scheduleActiveLinkUpdate, { passive: true });
     }
 
     // ==========================================================================
@@ -6556,10 +6656,20 @@
     initWhenNearSection("menu", initMenuSection, "1000px 0px");
     initWhenNearSection("opinie", initProofSection, "900px 0px");
     initWhenNearSection("faq", initFaqSection, "700px 0px");
+    initStableAnchorNavigation();
     updateBrandDockShift();
     syncDockedHeader();
 
-    window.addEventListener("scroll", syncDockedHeader, { passive: true });
+    let headerSyncFrame = 0;
+    const scheduleDockedHeaderSync = () => {
+      if (headerSyncFrame) return;
+      headerSyncFrame = window.requestAnimationFrame(() => {
+        headerSyncFrame = 0;
+        syncDockedHeader();
+      });
+    };
+
+    window.addEventListener("scroll", scheduleDockedHeaderSync, { passive: true });
     window.addEventListener("resize", () => {
       updateBrandDockShift();
       syncDockedHeader();
